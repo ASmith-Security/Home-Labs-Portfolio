@@ -1,27 +1,66 @@
-# Home Lab Portfolio
+# 🛡️ Home Lab Security Portfolio
 
-This repository documents the hands-on cybersecurity work I am completing in my home lab.
+This repository documents hands-on cybersecurity labs performed in a self-built home lab environment designed to simulate real-world SOC operations.
 
-## Environment
-- Kali Linux
-- Wazuh SIEM
-- Windows Server / Domain Controller
-- Windows endpoints
-- Virtual machines
-- Security tools such as Nmap, PowerShell, Sysmon, and Suricata
+---
 
-## What I Am Practicing
+## 🔧 Lab Environment
+
+- **Attacker Machine:** Kali Linux
+- **SIEM Platform:** Wazuh
+- **Target System:** Windows Server (DC01 - Active Directory Domain Controller)
+- **Endpoints:** Windows 10/11 systems
+- **Virtualization:** (VirtualBox / Hyper-V)
+
+---
+
+## 🎯 Objectives
+
+- Simulate real-world cyber attacks
+- Analyze logs and alerts in a SIEM (Wazuh)
+- Develop detection and monitoring skills
+- Practice basic incident response workflows
+- Build hands-on SOC Analyst experience
+
+---
+
+## 🧠 Skills Demonstrated
+
 - Network reconnaissance detection
-- Log analysis
-- SIEM alert review
-- Basic incident response
-- Detection engineering
-- Windows and Active Directory investigation
+- Log analysis (Windows Event Logs, Wazuh alerts)
+- SIEM monitoring and alert validation
+- Threat simulation using Kali Linux
+- Detection engineering fundamentals
+- Windows & Active Directory security basics
 
-## Lab Projects
-- [Nmap Scan Simulation](labs/nmap-scan/README.md)
-- [Brute Force Simulation](labs/brute-force-simulation/README.md)
-- [Wazuh Detections](labs/wazuh-detections/README.md)
+---
 
-## Goal
-My goal is to build hands-on SOC analyst skills by simulating attacks, analyzing logs, writing detections, and documenting findings.
+## 🧪 Lab Projects
+
+- 🔍 [Nmap Reconnaissance Simulation](labs/nmap-scan/README.md)
+- 🔐 (Coming Soon) Brute Force Simulation
+- ⚙️ (Coming Soon) PowerShell Detection
+- 🚨 (Coming Soon) Wazuh Alert Tuning
+
+---
+
+## 📸 Evidence Collection
+
+Each lab includes:
+- Screenshots of commands and results
+- SIEM alerts and log analysis
+- Observations and findings
+- Lessons learned
+
+---
+
+## 🚀 Goal
+
+To develop job-ready skills for a SOC Analyst / Junior Security Analyst role by simulating attacks, analyzing security data, and documenting findings like a real-world security professional.
+
+---
+
+## 👨‍💻 Author
+
+**Alex Smith**  
+Aspiring SOC Analyst | Cybersecurity Student | Hands-on Lab Builder
